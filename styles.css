@@ -1,0 +1,80 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header#main-header {
+    background-image: url('ind.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 0; /* Reduced padding to make the header narrower */
+    text-align: center;
+    height: 180px; /* Set a fixed height to ensure the header is not too tall */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header#main-header .header-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px;
+    margin-bottom: 10px; /* Reduced space below the header content */
+}
+
+header#main-header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Slightly smaller font size */
+}
+
+header#main-header p {
+    font-size: 1em; /* Slightly smaller font size */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0; /* Remove margin to reduce space */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px; /* Reduced margin for less space between buttons */
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
