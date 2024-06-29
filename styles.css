@@ -12,40 +12,39 @@ header#main-header {
     background-size: cover;
     background-position: center;
     color: #fff;
-    padding: 30px 0;
     text-align: center;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 30px 20px;
 }
 
 header#main-header .header-content {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
-    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 header#main-header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 header#main-header p {
     font-size: 1em;
+    margin-top: 10px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center;
     margin: 0;
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 nav ul li {
-    margin: 5px;
+    margin: 10px;
 }
 
 nav ul li a {
@@ -64,8 +63,12 @@ nav ul li a:hover {
     color: #fff;
 }
 
-section {
+section#about-us {
     padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -76,80 +79,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-/* Apply Button Styles */
-.apply-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    transition: background-color 0.3s;
-}
-
-.apply-button:hover {
-    background-color: #218838;
-}
-
-/* Job Vacancy Styles */
-.job-vacancy {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    width: 300px;
-}
-
-.job-vacancy h3 {
-    margin-top: 0;
-}
-
-/* Contact Details Styles */
-.contact-details {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.contact-details li {
-    background-color: #fff;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-/* Desktop-only Styles (overrides for smaller screens) */
-@media (max-width: 768px) {
-    header#main-header {
-        height: 150px; /* Reduced height for smaller screens */
-        padding: 20px 0; /* Reduced padding */
-    }
-
-    header#main-header h1 {
-        font-size: 2em; /* Adjusted font size */
-    }
-
-    header#main-header p {
-        font-size: 0.9em; /* Adjusted font size */
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: row; /* Ensure buttons are in a row */
-        justify-content: center;
-    }
-
-    nav ul li {
-        margin: 5px 10px; /* Adjusted margin */
-    }
-
-    nav ul li a {
-        padding: 10px 20px; /* Adjusted padding */
-        font-size: 0.9em; /* Adjusted font size */
-    }
 }
