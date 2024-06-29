@@ -1,6 +1,6 @@
 /* styles.css */
 
-/* General styles */
+/* General styles (applies to all screens) */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -42,8 +42,8 @@ nav ul {
     padding: 0;
     text-align: center;
     margin: 0;
-    display: flex; /* Added flex display */
-    justify-content: center; /* Center align items horizontally */
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
@@ -103,7 +103,7 @@ footer {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    width: 300px; /* Added fixed width for consistent size */
+    width: 300px;
 }
 
 .job-vacancy h3 {
@@ -123,4 +123,24 @@ footer {
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+
+/* Desktop-only Styles (overrides for smaller screens) */
+@media (max-width: 768px) {
+    header#main-header {
+        height: 150px; /* Reduced height for smaller screens */
+        padding: 20px 0; /* Reduced padding */
+    }
+
+    header#main-header h1 {
+        font-size: 2em; /* Adjusted font size */
+    }
+
+    header#main-header p {
+        font-size: 0.9em; /* Adjusted font size */
+    }
+
+    nav ul {
+        display: none; /* Hide navigation for smaller screens */
+    }
 }
