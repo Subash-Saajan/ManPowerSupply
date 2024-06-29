@@ -111,19 +111,21 @@ section#job-vacancy h2 {
     border-radius: 5px;
     font-size: 1em;
     transition: background-color 0.3s;
-    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .apply-button:hover {
     background-color: #218838;
 }
 
-footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+@media (max-width: 768px) {
+    .job-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apply-button {
+        margin-top: 10px;
+        margin-right: 0;
+    }
 }
