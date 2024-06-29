@@ -73,4 +73,51 @@ nav ul li a:hover {
     nav ul li {
         margin: 5px 0;
     }
+
+    section#job-vacancy {
+        background-color: #f9f9f9;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section#job-vacancy h2 {
+        margin-top: 0;
+        font-size: 2em;
+    }
+
+    .job-item {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .job-item h3 {
+        margin-top: 0;
+        font-size: 1.5em;
+    }
+
+    .job-item p {
+        margin-bottom: 10px;
+    }
+
+    .apply-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1em;
+        transition: background-color 0.3s;
+        margin-top: 10px;
+    }
+
+    .apply-button:hover {
+        background-color: #218838;
+    }
 }
