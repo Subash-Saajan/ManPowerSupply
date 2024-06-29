@@ -145,11 +145,11 @@ footer {
     }
 
     nav ul li {
-        margin: 0 10px; /* Adjusted margin */
+        margin: 5px 10px; /* Adjusted margin */
     }
 
     nav ul li a {
-        padding: 10px 15px; /* Adjusted padding */
+        padding: 10px 20px; /* Adjusted padding */
         font-size: 0.9em; /* Adjusted font size */
     }
 }
