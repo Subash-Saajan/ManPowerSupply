@@ -14,39 +14,39 @@ header#main-header {
     background-size: cover;
     background-position: center;
     color: #fff;
-    padding: 50px 0; /* Reduced padding to make the header narrower */
+    padding: 30px 0;  /* Adjusted padding */
     text-align: center;
-    height: 180px; /* Set a fixed height to ensure the header is not too tall */
+    height: 200px;  /* Increased height */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 header#main-header .header-content {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
-    margin-bottom: 10px; /* Reduced space below the header content */
+    margin-bottom: 10px;
 }
 
 header#main-header h1 {
     margin: 0;
-    font-size: 2.5em; /* Slightly smaller font size */
+    font-size: 2.5em;
 }
 
 header#main-header p {
-    font-size: 1em; /* Slightly smaller font size */
+    font-size: 1em;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
-    margin: 0; /* Remove margin to reduce space */
+    margin: 0;
 }
 
 nav ul li {
     display: inline-block;
-    margin: 5px; /* Reduced margin for less space between buttons */
+    margin: 5px;
 }
 
 nav ul li a {
@@ -77,4 +77,48 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Apply Button Styles */
+.apply-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+    background-color: #218838;
+}
+
+/* Job Vacancy Styles */
+.job-vacancy {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.job-vacancy h3 {
+    margin-top: 0;
+}
+
+/* Contact Details Styles */
+.contact-details {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-details li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
