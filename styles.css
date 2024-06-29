@@ -85,9 +85,6 @@ section#job-vacancy h2 {
 }
 
 .job-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
@@ -114,22 +111,19 @@ section#job-vacancy h2 {
     border-radius: 5px;
     font-size: 1em;
     transition: background-color 0.3s;
-    width: 48%; /* Equal width for two buttons */
-    text-align: center;
+    margin-top: 10px;
 }
 
 .apply-button:hover {
     background-color: #218838;
 }
 
-@media (max-width: 768px) {
-    .job-item {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .apply-button {
-        width: 100%; /* Full width for mobile */
-        margin-top: 10px;
-    }
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
