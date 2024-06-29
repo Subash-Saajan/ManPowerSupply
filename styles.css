@@ -147,7 +147,7 @@ footer {
         margin: 5px 0;
     }
 
-    nav ul li a {
+   nav ul li a {
         display: block;
         padding: 15px 20px;
         background-color: #fff;
@@ -157,7 +157,8 @@ footer {
         border-radius: 5px;
         transition: background-color 0.3s, color 0.3s;
         text-align: center;
-        width: 100%;
+        width: calc(100% - 30px); /* Adjusted width to fit within the padding and borders */
+        margin: 5px 0; /* Adjusted margin */
     }
     
     nav ul li a:hover {
