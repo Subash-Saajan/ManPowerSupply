@@ -45,6 +45,7 @@ nav ul {
 
 nav ul li {
     margin: 10px;
+    flex: 1; /* Equal width for all menu items */
 }
 
 nav ul li a {
@@ -56,6 +57,8 @@ nav ul li a {
     border: 2px solid #333;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
+    width: 100%; /* Full width of parent li */
+    text-align: center; /* Center text */
 }
 
 nav ul li a:hover {
