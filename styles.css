@@ -178,7 +178,7 @@ footer {
     .apply-button {
         padding: 12px 24px;
         font-size: 1.1em;
-        background-color: rgba(0, 0, 0, 0.5); /* Match parent background */
+        background-color: #218838; /* Match parent background */
         color: #fff; /* Text color */
         border: none; /* Remove border */
         margin-top: 10px; /* Adjust spacing */
